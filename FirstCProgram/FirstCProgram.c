@@ -9,9 +9,9 @@
  */
 int smallest(int elements[], int size) {
   int i;
-  int min;
+  int min = INT_MAX;
   if (size <= 0) {
-   return INT_MAX;
+   return min;
   }
   for (i = 0; i < size; i++){
    if (elements[i] < min){
