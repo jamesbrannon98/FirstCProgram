@@ -1,8 +1,8 @@
 # FirstCProgram
 
 This project was designed in order to begin learning the C programming languages.
-Each of the functions are independent of each other, all project files (including
-those used to test the project) are included.
+Each of the functions are independent of each other, and the .c, .h, and .o  files for
+the project are all included.
 
 The first function, smallest, iterates through as list of elements, and returns the the minimum
 of the list by determining if the current element is less than the current minimum.
